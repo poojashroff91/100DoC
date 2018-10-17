@@ -1,3 +1,4 @@
+#100DoC
 # java-design-pattens
 
 ## Day 1
