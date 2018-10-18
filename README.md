@@ -34,5 +34,6 @@ Related file - Person.java
 - A builder is a class whose only function is to build a complicated object.
 - Can either give builder a constructor or return it via a static function.
 - To make the builder fluent return this.
-- Different facets of an object can be built with different builders in tandem via a base class. 
+- Different facets of an object can be built with different builders in tandem via a base class. n
+Related files in package *builder*
 
