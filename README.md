@@ -30,7 +30,7 @@ Related file - Person.java
 
 
 ## Day 3
-###Builder Pattern
+### Builder Pattern
 - A builder is a class whose only function is to build a complicated object.
 - Can either give builder a constructor or return it via a static function.
 - To make the builder fluent return this.
