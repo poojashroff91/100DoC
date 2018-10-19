@@ -37,3 +37,6 @@ Related file - Person.java
 - Different facets of an object can be built with different builders in tandem via a base class. n
 Related files in package *builder*
 
+## Day 4
+### Factory Pattern and Abstract Factory
+- Factory is a component that is responsible for wholesale creation of objects.
