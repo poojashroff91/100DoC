@@ -1,5 +1,8 @@
 package factory;
 
+import javafx.util.Pair;
+import java.util.*;
+
 interface HotDrink {
     void consume();
 }
@@ -41,8 +44,36 @@ class CoffeeFactory implements HotDrinkFactory{
 
 }
 class HotDrinkMachine{
-    //private List<Pair<String, HotDrinkFactory>> namedFactories = new ArrayList<>();
+
+    public enum AvailableDrink {
+        COFFEE, TEA
+    }
+
+    private List<Pair<String, HotDrinkFactory>> namedFactories = new ArrayList<>();
+    private Dictionary<AvailableDrink, HotDrinkFactory> factories = new Hashtable<>();
+
+    public HotDrinkMachine() throws Exception {
+
+        for (AvailableDrink drink: AvailableDrink.values()){
+            String s = drink.toString();
+            String factoryName = "" + Character.toUpperCase(s.charAt(0))+ s.substring(1).toLowerCase();
+            Class<?> factory = Class.forName("factory." + factoryName + "Factory");
+            factories.put(drink, (HotDrinkFactory) factory.getDeclaredConstructor().newInstance());
+
+        }
+
+    }
+
+    public HotDrink makeDrink(AvailableDrink drink, int amount){
+        return factories.get(drink).prepare(amount);
+    }
 }
 
 public class DemoDrink {
+
+    public static void main(String[] args) throws Exception {
+        HotDrinkMachine machine = new HotDrinkMachine();
+        HotDrink drink = machine.makeDrink(HotDrinkMachine.AvailableDrink.TEA, 200);
+        drink.consume();
+    }
 }
