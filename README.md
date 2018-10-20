@@ -37,7 +37,7 @@ Related file - Person.java
 - Different facets of an object can be built with different builders in tandem via a base class. n
 Related files in package *builder*
 
-## Day 4
+## Day 4 & Day 5
 ### Factory Pattern and Abstract Factory
 - Factory is a component that care is responsible for wholesale creation of objects.
 - A factory method is a static method that creates objects.
