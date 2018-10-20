@@ -1,5 +1,5 @@
 #100DoC
-# java-design-pattens
+# java-design-patterns
 
 ## Day 1
 1. SRP - Single Responsibility Principle
