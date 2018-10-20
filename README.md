@@ -39,4 +39,8 @@ Related files in package *builder*
 
 ## Day 4
 ### Factory Pattern and Abstract Factory
-- Factory is a component that is responsible for wholesale creation of objects.
+- Factory is a component that care is responsible for wholesale creation of objects.
+- A factory method is a static method that creates objects.
+- A factory can take care of object creation
+- A factory can be external or reside inside the object as an inner class
+- Hierarchies of factories can be used to create related objects. 
