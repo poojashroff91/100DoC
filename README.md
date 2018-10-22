@@ -56,4 +56,8 @@ Related files in package *builder*
   - Deep copy
   - Serializeable
 
-### Singleton Pattern
+### Adapter pattern
+- Get the interface you want from the interface you have.
+- Determine the API you have and the API you need.
+- Create a component which aggregates the adaptee
+- Intermediate representations can pile up: use caching and other optimizations.
