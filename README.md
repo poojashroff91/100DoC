@@ -44,3 +44,10 @@ Related files in package *builder*
 - A factory can take care of object creation
 - A factory can be external or reside inside the object as an inner class
 - Hierarchies of factories can be used to create related objects. 
+
+
+## Day 6 & Day 7
+### Prototype Pattern
+- Complicated objects aren't designed from scratch.
+- An existing design is a Prototype.
+- We copy (clone) the prototype and customize it.
