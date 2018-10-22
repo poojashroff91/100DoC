@@ -51,3 +51,9 @@ Related files in package *builder*
 - Complicated objects aren't designed from scratch.
 - An existing design is a Prototype.
 - We copy (clone) the prototype and customize it.
+- To implement a prototype, partially construct an object and store it somewhere
+- Clone the prototype
+  - Deep copy
+  - Serializeable
+
+### Singleton Pattern
