@@ -61,3 +61,13 @@ Related files in package *builder*
 - Determine the API you have and the API you need.
 - Create a component which aggregates the adaptee
 - Intermediate representations can pile up: use caching and other optimizations.
+
+
+## Day 8
+### Bridge pattern
+- A mechanism that decouples an interface from an implementation.
+- Helps avoid an entity explosion.
+- Stronger form of encapsulation.
+
+## Composite pattern
+
