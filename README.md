@@ -69,5 +69,11 @@ Related files in package *builder*
 - Helps avoid an entity explosion.
 - Stronger form of encapsulation.
 
-## Composite pattern
+## Day 9
+### Composite pattern
+- Objects can use other objects via inheritance/composition
+- Some composed and singular objects require similar or identical behaviors
+- Composite design pattern lets us treat both of these types of objects uniformly
+- Java supports container iteration with the Iterable<T> interface.
+- A single object can masquerade as a collection by returning a single element collection containing only this.
 
