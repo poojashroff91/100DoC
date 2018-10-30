@@ -77,3 +77,15 @@ Related files in package *builder*
 - Java supports container iteration with the Iterable<T> interface.
 - A single object can masquerade as a collection by returning a single element collection containing only this.
 
+
+## Day 10
+### Decorator pattern
+- Want to augment an object with additional functionality
+- Do not want to rewrite or alter existing code (OCP)
+- Want to keep new functionality separate (SRP)
+- Need to be able to interact with existing structures
+- Two options
+    - Inherit from required object if possible, but some classes are final.
+    - Build a decorator which simply references the decorated object. 
+- Facilitates new behavior in objects without inheriting from there.
+
