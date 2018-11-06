@@ -88,4 +88,7 @@ Related files in package *builder*
     - Inherit from required object if possible, but some classes are final.
     - Build a decorator which simply references the decorated object. 
 - Facilitates new behavior in objects without inheriting from there.
-
+- Adapter-Decorator
+    - Decorator adds new functionality
+    - Adapter allows us to use some of the original functionality.
+    
