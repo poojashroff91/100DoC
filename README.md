@@ -78,7 +78,7 @@ Related files in package *builder*
 - A single object can masquerade as a collection by returning a single element collection containing only this.
 
 
-## Day 10
+## Day 10, Day 11
 ### Decorator pattern
 - Want to augment an object with additional functionality
 - Do not want to rewrite or alter existing code (OCP)
@@ -92,3 +92,13 @@ Related files in package *builder*
     - Decorator adds new functionality
     - Adapter allows us to use some of the original functionality.
     
+## Day 12
+### Facade pattern
+- Balancing complexity and presentation/usability.
+- Typical home
+    - Many subsytems
+    - Complex internal structure
+    - End user is not exposed to internals
+- Same with software
+    - API 
+- Provides a simple, easy to understand interface over a large body of code.
